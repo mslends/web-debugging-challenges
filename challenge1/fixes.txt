@@ -1,0 +1,10 @@
+ng-app at the top of the index.html page was missing an '=' between the declaration and the name it was ng-app"miniRouting".
+I changed it to ng-app="miniRouting"
+
+Fixed app.js. Changed 'ui-router' to 'ui.router' to give it the proper syntax
+
+At the bottom of index.html there was a missing '>' before the closing script tag. It looked like this before:
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"</script>
+
+I corrected it to look like this:
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>

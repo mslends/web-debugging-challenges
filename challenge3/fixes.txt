@@ -1,0 +1,9 @@
+1. Made the title of the website show up as well as the welcome message. The html template names in the paths on each state were spelled incorrectly.
+
+fixed:
+ homeTmpl.html
+ productTmpl.html
+ settingsTmpl.html
+
+
+2. Links to products wasn't hooked up properly. Added a ui-sref to make sure it was hooked up to the proper state and functioning correctly. 

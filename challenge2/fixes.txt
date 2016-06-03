@@ -1,0 +1,3 @@
+Had to npm install missing  dependencies. 
+
+read was spelled 'raed' in server js on an endpoint. I corrected the spelling and it worked.
